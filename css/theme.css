@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #203061;
+  --color-primary-medium: #334991;
+  --color-primary-light: #5b72b7;
+  --color-secondary-gray: #efefef;
+  --color-secondary-orange: #f09f72;
+  --color-secondary-beige: #f4ebd9;
+
+  --font-primary: latino-urw, sans-serif;
+  --font-secondary: acme-gothic, sans-serif;
+}
+
+html {
+  font-family: var(font-primary);
+}
