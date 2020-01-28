@@ -1,4 +1,7 @@
 permalink: pretty
 theme: jekyll_patternbot
 patternbot:
+  title: "Off The Shelf Studio"
+  description: |
+    A website selling unique and unusual earthenware, stoneware and porcelain art pieces.
   font_url: "https://fonts.googleapis.com/css?family=Oswald:400,600,700|Source+Sans+Pro:400,600,700&display=swap"
