@@ -6,10 +6,185 @@
   --color-secondary-orange: #f09f72;
   --color-secondary-beige: #f4ebd9;
 
-  --font-primary: latino-urw, sans-serif;
+  --font-primary: 'Source Sans Pro', sans-serif;
   --font-secondary: acme-gothic, sans-serif;
 }
 
 html {
-  font-family: var(font-primary);
+  font-family: var(--font-primary);
+}
+
+/** Headings; focus on colour, font-weight, font-style and font-family **/
+
+h1 {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+h2 {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 600;
+  color: var(--color-primary-light);
+}
+
+h4 {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 600;
+  color: var(--color-primary-light);
+}
+
+h5 {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 600;
+  color: var(--color-secondary-orange);
+}
+
+h6 {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 600;
+  color: var(--color-secondary-orange);
+}
+
+/** Lists **/
+
+ul {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: normal;
+  color: var(--color-primary);
+}
+
+ol {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: normal;
+  color: var(--color-primary);
+}
+
+dl dt {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+dl dd {
+  font-family: var(--font-primary);
+  font-style: italic;
+  font-weight: normal;
+  color: var(--color-primary-light);
+}
+
+/** Links **/
+
+a {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 300;
+  color: var(--color-primary);
+}
+
+a:hover {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: normal;
+  color: var(--color-secondary-orange);
+}
+
+/** Blockquotes **/
+
+blockquote {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 600;
+  color: var(--color-primary-light);
+}
+
+cite {
+  font-family: var(--font-primary);
+  font-style: italic;
+  font-weight: normal;
+  color: var(--color-primary-light);
+}
+
+/** Emphasis and Edits **/
+
+em {
+  font-family: var(--font-primary);
+  color: var(--color-primary-light);
+}
+
+strong {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: bold;
+  color: var(--color-primary-light);
+}
+
+del {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+ins {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+abbr {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+dfn {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+i {
+  font-family: var(--font-primary);
+  font-style: italic;
+  font-weight: normal;
+  color: var(--color-primary);
+}
+
+b {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+mark {
+  font-family: var(--font-primary);
+  color: white;
+  background-color: var(--color-secondary-orange);
+}
+
+q {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+s {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+u {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
 }
