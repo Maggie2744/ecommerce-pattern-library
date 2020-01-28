@@ -1,5 +1,4 @@
 permalink: pretty
 theme: jekyll_patternbot
 patternbot:
-  font_url: "https://use.typekit.net/mty6aqe.css"
-  font_url: "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap"
+  font_url: "https://fonts.googleapis.com/css?family=Oswald:400,600,700|Source+Sans+Pro:400,600,700&display=swap"
