@@ -5,3 +5,8 @@ patternbot:
   description: |
     A website selling unique and unusual earthenware, stoneware and porcelain art pieces.
   font_url: "https://fonts.googleapis.com/css?family=Oswald:400,600,700|Source+Sans+Pro:400,600,700&display=swap"
+  rationales: |
+    typefaces.primary: |
+      Source Sans Pro was selected because it is a good font for body copy and pairs well with Oswald to create total cohesion in the website.
+    typefaces.secondary: |
+      Oswald was selected because it is a modern and bold typeface that identifies with the company's modern and bold products. It is the typeface used for all headings, buttons, etc.
