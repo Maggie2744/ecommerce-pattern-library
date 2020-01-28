@@ -5,8 +5,17 @@ patternbot:
   description: |
     A website selling unique and unusual earthenware, stoneware and porcelain art pieces.
   font_url: "https://fonts.googleapis.com/css?family=Oswald:400,600,700|Source+Sans+Pro:400,600,700&display=swap"
-  rationales: |
+  colors:
+    background: "--color-secondary-white"
+    accent: "--color-secondary-orange"
+    patterns:
+      brand.logos: "--color-secondary-gray"
+  rationales:
     typefaces.primary: |
       Source Sans Pro was selected because it is a good font for body copy and pairs well with Oswald to create total cohesion in the website.
     typefaces.secondary: |
       Oswald was selected because it is a modern and bold typeface that identifies with the company's modern and bold products. It is the typeface used for all headings, buttons, etc.
+    colors.primary: |
+      The primary colours were picked because blue is seen as a versatile and creative colour to match our business. It is the primary colour used for the headings and body content.
+    colors.secondary: |
+      The secondary colours were picked because they contrast well with the primary colours and bring a sense of excitement and uniqueness which represent our unique and unusual products. They are used as accent colours to highlight important information and should be used sparingly.
