@@ -1,9 +1,33 @@
 .banner-btn {
   background-color: var(--color-secondary-gray);
-  padding-left: auto;
-  padding-right: auto;
 }
 
 .banner-btn p {
   max-width: 300px;
+}
+
+.banner-btn-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-1 {
+  background-color: var(--color-secondary-orange);
+}
+
+.svg-2 {
+  background-color: var(--color-secondary-white);
+}
+
+.svg-3 {
+  background-color: var(--color-primary);
+}
+
+.svg-4 {
+  background-color: var(--color-primary-light);
+}
+
+.product-list-banner {
+  background-color: var(--color-secondary-gray);
 }
