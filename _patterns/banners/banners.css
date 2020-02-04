@@ -6,7 +6,7 @@
   max-width: 300px;
 }
 
-.banner-btn-content {
+.banner-btn-content, .product-list-banner-content {
   display: flex;
   justify-content: center;
   align-items: center;
