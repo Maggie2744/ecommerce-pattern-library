@@ -1,4 +1,4 @@
-.banner-btn {
+.banner-btn, .featured-products-banner {
   background-color: var(--color-secondary-gray);
 }
 
@@ -6,7 +6,7 @@
   max-width: 300px;
 }
 
-.banner-btn-content, .product-list-banner-content {
+.banner-btn-content, .product-list-banner-content, .featured-products-banner-title {
   display: flex;
   justify-content: center;
   align-items: center;
