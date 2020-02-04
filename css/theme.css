@@ -12,6 +12,7 @@
 
 html {
   font-family: var(--font-primary);
+  color: var(--color-primary);
 }
 
 /** Headings; focus on colour, font-weight, font-style and font-family **/
@@ -20,14 +21,12 @@ h1 {
   font-family: var(--font-secondary);
   font-style: normal;
   font-weight: 600;
-  color: var(--color-primary);
 }
 
 h2 {
   font-family: var(--font-secondary);
   font-style: normal;
   font-weight: 600;
-  color: var(--color-primary);
 }
 
 h3 {
@@ -64,21 +63,18 @@ ul {
   font-family: var(--font-primary);
   font-style: normal;
   font-weight: normal;
-  color: var(--color-primary);
 }
 
 ol {
   font-family: var(--font-primary);
   font-style: normal;
   font-weight: normal;
-  color: var(--color-primary);
 }
 
 dl dt {
   font-family: var(--font-primary);
   font-style: normal;
   font-weight: 600;
-  color: var(--color-primary);
 }
 
 dl dd {
@@ -94,7 +90,6 @@ a {
   font-family: var(--font-secondary);
   font-style: normal;
   font-weight: 300;
-  color: var(--color-primary);
 }
 
 a:hover {
@@ -136,36 +131,30 @@ strong {
 
 del {
   font-family: var(--font-primary);
-  color: var(--color-primary);
 }
 
 ins {
   font-family: var(--font-primary);
-  color: var(--color-primary);
 }
 
 abbr {
   font-family: var(--font-primary);
-  color: var(--color-primary);
 }
 
 dfn {
   font-family: var(--font-primary);
-  color: var(--color-primary);
 }
 
 i {
   font-family: var(--font-primary);
   font-style: italic;
   font-weight: normal;
-  color: var(--color-primary);
 }
 
 b {
   font-family: var(--font-primary);
   font-style: normal;
   font-weight: bold;
-  color: var(--color-primary);
 }
 
 mark {
@@ -176,15 +165,12 @@ mark {
 
 q {
   font-family: var(--font-primary);
-  color: var(--color-primary);
 }
 
 s {
   font-family: var(--font-primary);
-  color: var(--color-primary);
 }
 
 u {
   font-family: var(--font-primary);
-  color: var(--color-primary);
 }
