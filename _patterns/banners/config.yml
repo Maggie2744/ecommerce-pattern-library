@@ -1,0 +1,17 @@
+title: "Banners"
+description: |
+  Banners should be used at the top of every page (other than the checkout page).
+
+patterns:
+  banner-btn:
+    title: "Landing Page Banner"
+    description: |
+      This is the banner that will be used on the home / landing page.
+  featured-products-banner:
+    title: "Featured Products Page Banner"
+    description: |
+      This is the banner that will be used on the featured products section.
+  product-list-banner:
+    title: "Product List Banner"
+    description: |
+      This is the banner that will be used on the products list page.

@@ -1,0 +1,57 @@
+title: "Form"
+  description: |
+    There is only one area where a form is present on the website. This form should only be used on the checkout page.
+
+  pattern:
+    shipping-input:
+      title: "Shipping Input"
+      description: |
+        This input will let the user choose between two shipping options.
+    email-input:
+      title: "Email Input"
+      description: |
+        User will input their email in this field.
+    first-name-input:
+      title: "First Name"
+      description: |
+        User will input their first name in this field.
+    last-name-input:
+      title: "Last Name"
+      description: |
+        User will input their last name in this field.
+    phone-number-input:
+      title: "Phone Number"
+      description: |
+        User will input their phone number in this field.
+    payment-input:
+      title: "Payment Choice Input"
+      description: |
+        User will choose between two input choices for payment options.
+    card-number-input:
+      title: "Card Number Input"
+      description: |
+        User will input their card number (with a maximum number of 16 digits) in this field.
+    expiry-date-input:
+      title: "Expiry Number Input"
+      description: |
+        User will input their card's expiry date in this field.
+    cvc-input:
+      title: "CVC Number Input"
+      description: |
+        User will input their card's CVC number (with a maximum of 3 digits) in this field.
+    address-input:
+      title: "Address Input"
+      description: |
+        User will input their address in this field.
+    city-input:
+      title: "City Input"
+      description: |
+        User will input their city in this field.
+    province-input:
+      title: "Province Input"
+      description: |
+        User will choose their province from a drop-down in this field.
+    postal-code-input:
+      title: "Postal Code Input"
+      description: |
+        User will input their postal code (with maxiumum of 6 variables) in this field.

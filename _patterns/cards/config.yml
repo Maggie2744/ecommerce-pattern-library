@@ -1,0 +1,9 @@
+title: "Cards"
+description: |
+  Cards should be used to display various similar options available to the user.
+
+patterns:
+  collections-card:
+    title: "Collections Cards"
+    description: |
+      There are three collections featured in this website: Earthenware, Stoneware and Porcelain. These cards are featured on the home / landing page.
