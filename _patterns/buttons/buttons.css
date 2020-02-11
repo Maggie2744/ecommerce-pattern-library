@@ -20,12 +20,18 @@
 
 .btn-ghost:hover {
   color: var(--color-secondary-white);
-  border: solid 2px var(--color-primary-light);
+  border: solid 2px var(--color-secondary-white);
   background-color: var(--color-primary-light);
 }
 
 .btn-light {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: solid 2px var(--color-primary);
+  transition: color .3s linear;
+}
+
+.btn-light:hover {
   background-color: var(--color-primary-light);
-  border-color: var(--color-primary-light);
-  color: var(--color-secondary-white);
+  border: none;
 }

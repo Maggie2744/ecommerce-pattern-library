@@ -1,15 +1,21 @@
-<fieldset>
-  <legend>Shipping</legend>
-  <input type="radio" id="standard" name="shipping">
-  <label for="standard">
-    <p>Standard</p>
-    <p>Free</p>
-    <p>5-10 Business Days</p>
-  </label>
-  <input type="radio" id="express" name="shipping">
-  <label for="express">
-    <p>Express</p>
-    <p>$9.99</p>
-    <p>2-5 Business Days</p>
-  </label>
+<fieldset class="input max-length gutter">
+  <legend class="center-text">Shipping</legend>
+  <div class="grid">
+    <div class="unit xs-1 s-1-2 m-1-2 l-1-2 pad-t-1-2">
+      <input type="radio" id="standard" name="shipping">
+      <label for="standard">
+        <p class="inline bold">Standard</p>
+        <p class="inline">(Free)</p>
+        <p class="edit milli">(5-10 Business Days)</p>
+      </label>
+    </div>
+    <div class="unit xs-1 s-1-2 m-1-2 l-1-2 pad-t-1-2">
+      <input type="radio" id="express" name="shipping">
+      <label for="express">
+        <p class="inline bold">Express</p>
+        <p class="inline">($9.99)</p>
+        <p class="edit milli">(2-5 Business Days)</p>
+      </label>
+    </div>
+  </div>
 </fieldset>

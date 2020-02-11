@@ -1,12 +1,18 @@
-<fieldset>
-  <legend>Payment</legend>
-  <input type="radio" id="credit" name="payment">
-  <label for="credit">
-    <p>Credit Card</p>
-    <p>American Express, VISA, MasterCard</p>
-  </label>
-  <input type="radio" id="debit" name="payment">
-  <label for="debit">
-    <p>Interac Online</p>
-  </label>
+<fieldset class="input max-length gutter">
+  <legend class="center-text">Payment</legend>
+  <div class="grid">
+    <div class="unit xs-1 s-1-2 m-1-2 l-1-2 pad-t-1-2">
+      <input type="radio" id="credit" name="payment">
+      <label for="credit">
+        <p class="inline bold">Credit Card</p>
+        <p class="edit milli">(American Express, VISA, MasterCard)</p>
+      </label>
+    </div>
+    <div class="unit xs-1 s-1-2 m-1-2 l-1-2 pad-t-1-2">
+      <input type="radio" id="debit" name="payment">
+      <label for="debit">
+        <p class="inline bold">Interac Online</p>
+      </label>
+    </div>
+  </div>
 </fieldset>
