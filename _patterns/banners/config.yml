@@ -15,3 +15,7 @@ patterns:
     title: "Product List Banner"
     description: |
       This is the banner that will be used on the products list page.
+  commissions-banner:
+    title: "Commissions Banner"
+    description: |
+      This banner will be present underneath the gallery and each product details page.

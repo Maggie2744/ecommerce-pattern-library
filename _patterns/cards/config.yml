@@ -8,3 +8,8 @@ patterns:
     description: |
       There are three collections featured in this website: Earthenware, Stoneware and Porcelain. These cards are featured on the home / landing page.
     width: 25em
+  gallery-cards:
+    title: "Gallery Cards"
+    description: |
+      These are the main cards to be used in the gallery section to link to a variety of product pages.
+    width: 25em

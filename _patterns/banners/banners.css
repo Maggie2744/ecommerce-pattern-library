@@ -1,4 +1,4 @@
-.banner-btn, .featured-products-banner {
+.banner-btn, .featured-products-banner, .commissions-banner {
   background-color: var(--color-secondary-gray);
 }
 
@@ -6,7 +6,7 @@
   max-width: 300px;
 }
 
-.banner-btn-content, .product-list-banner-content, .featured-products-banner-title {
+.banner-btn-content, .product-list-banner-content, .featured-products-banner-title, .commissions-banner-content {
   display: flex;
   justify-content: center;
   align-items: center;
