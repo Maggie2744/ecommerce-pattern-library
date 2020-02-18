@@ -1,3 +1,7 @@
 .edit {
   padding-left: 3em;
 }
+
+input {
+  border: solid var(--color-primary) .5px;
+}
