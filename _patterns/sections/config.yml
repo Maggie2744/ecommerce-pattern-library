@@ -1,0 +1,10 @@
+title: "Sections"
+description: |
+  Sections will be specifically used for the product details page.
+
+patterns:
+  product-details-page:
+    title: "Product Details Page"
+    description: |
+      This is the section that will describe the product in detail and provide all necessary information for the customer.
+    width: 25em

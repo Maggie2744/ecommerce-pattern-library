@@ -1,0 +1,7 @@
+.line {
+  border: solid var(--color-primary) .5px;
+}
+
+.product-details-title {
+  color: var(--color-primary);
+}

@@ -31,3 +31,16 @@
 .product-list-banner {
   background-color: var(--color-secondary-gray);
 }
+
+.img-2, .img-3, .img-4 {
+  display: none;
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .img-2, .img-3, .img-4 {
+    display: block;
+  }
+
+}
