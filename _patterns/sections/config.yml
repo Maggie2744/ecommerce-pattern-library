@@ -7,4 +7,8 @@ patterns:
     title: "Product Details Section"
     description: |
       This is the section that will describe the product in detail and provide all necessary information for the customer.
-    width: 25em
+  shopping-summary-section:
+    title: "Shopping Summary Section"
+    description: |
+      This is the section that will provide a summary of the products in the customer's cart and will be featured over the checkout form.
+    width: 35em

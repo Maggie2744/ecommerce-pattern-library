@@ -13,3 +13,8 @@ patterns:
     description: |
       These are the main cards to be used in the gallery section to link to a variety of product pages.
     width: 25em
+  add-to-cart-overlay:
+    title: "Add-To-Cart Overlay"
+    description: |
+      This will be used to confirm that the customer clicked on the Add To Cart button on the Product Details Page and will confirm that the client wants this item in their shopping cart.
+    width: 35em

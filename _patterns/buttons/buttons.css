@@ -35,3 +35,16 @@
   background-color: var(--color-primary-light);
   border: none;
 }
+
+.btn-subtle {
+  border-style: none;
+  background-color: transparent;
+  color: var(--color-primary);
+  transition: color .3s linear;
+  text-decoration: underline;
+}
+
+.btn-subtle:hover {
+  background-color: transparent;
+  color: var(--color-secondary-orange);
+}

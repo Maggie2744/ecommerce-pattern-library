@@ -5,3 +5,11 @@
 .product-details-title {
   color: var(--color-primary);
 }
+
+@media only screen and (min-width: 36em) {
+
+  .shopping-summary-content {
+    padding-left: .5em;
+  }
+
+}

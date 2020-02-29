@@ -19,3 +19,8 @@ patterns:
     description: |
       The light button is to be as a variation of the main basic button when there is a need to differentiate between the two.
     width: "12em"
+  subtle:
+    title: "Subtle"
+    description: |
+      The subtle button is to be used on the shopping cart summary screen before the checkout form to allow the user to take out products they no longer wihs to purchase.
+    width: "12em"
