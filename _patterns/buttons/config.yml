@@ -24,3 +24,7 @@ patterns:
     description: |
       The subtle button is to be used on the shopping cart summary screen before the checkout form to allow the user to take out products they no longer wihs to purchase.
     width: "12em"
+  back-to-gallery:
+    title: "Back To Gallery"
+    description: |
+      This secondary navigation option will be placed at the top of the product details page.

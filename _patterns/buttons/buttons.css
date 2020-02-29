@@ -48,3 +48,20 @@
   background-color: transparent;
   color: var(--color-secondary-orange);
 }
+
+.back-to-gallery-btn {
+  background-color: #f1f1f1;
+}
+
+.btn-subtle-gallery {
+  border-style: none;
+  background-color: transparent;
+  color: var(--color-primary);
+  transition: color .3s linear;
+  text-decoration: underline;
+}
+
+.btn-subtle-gallery:hover {
+  background-color: transparent;
+  color: var(--color-secondary-orange);
+}
