@@ -6,6 +6,10 @@
   color: var(--color-primary);
 }
 
+.total {
+  background-color: #f1f1f1;
+}
+
 @media only screen and (min-width: 36em) {
 
   .shopping-summary-content {
