@@ -1,0 +1,13 @@
+title: "Navigation"
+description: |
+  Navigation will be present in the header and the footer of the website pages.
+
+patterns:
+  header:
+    title: "Header"
+    description: |
+      This is the main header pattern present on every page.
+  footer:
+    title: "Footer"
+    description: |
+      This is the main footer pattern present on every page.
