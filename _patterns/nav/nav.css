@@ -14,3 +14,12 @@
 .icon:hover {
   color: var(--color-secondary-orange);
 }
+
+.nav-2 li a {
+  text-decoration: none;
+}
+
+.nav-2-item {
+  color: var(--color-primary);
+  transition: color .2s linear;
+}
