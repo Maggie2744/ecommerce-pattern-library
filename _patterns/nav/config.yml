@@ -1,13 +1,9 @@
-title: "Navigation"
+title: "Secondary Navigation"
 description: |
-  Navigation will be present in the header and the footer of the website pages.
+  The secondary navigation will be present at the top of every product details page to allow the customer to go back to the main gallery products page.
 
 patterns:
-  header:
-    title: "Header"
+  back-to-gallery:
+    title: "Back To Gallery"
     description: |
-      This is the main header pattern present at the top of every page.
-  footer:
-    title: "Footer"
-    description: |
-      This is the main footer pattern present at the bottom of every page.
+      This secondary navigation option will be placed at the top of the product details page.

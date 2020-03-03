@@ -1,0 +1,9 @@
+title: "Header"
+description: |
+  The header will be present at the top of every web page.
+
+patterns:
+  header:
+    title: "Header"
+    description: |
+      This is the main header pattern present at the top of every page.

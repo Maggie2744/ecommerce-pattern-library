@@ -1,0 +1,9 @@
+title: "Footer"
+description: |
+  The footer will be present at the bottom of every web page.
+
+patterns:
+  footer:
+    title: "Footer"
+    description: |
+      This is the main footer pattern present at the bottom of every page.
