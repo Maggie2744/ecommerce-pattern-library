@@ -19,3 +19,6 @@ patternbot:
       The primary colours were picked because blue is seen as a versatile and creative colour to match our business. It is the primary colour used for the headings and body content.
     colors.secondary: |
       The secondary colours were picked because they contrast well with the primary colours and bring a sense of excitement and uniqueness which represent our unique and unusual products. They are used as accent colours to highlight important information and should be used sparingly.
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
