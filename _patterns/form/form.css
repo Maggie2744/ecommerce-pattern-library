@@ -5,3 +5,17 @@
 input {
   border: solid var(--color-primary) .5px;
 }
+
+fieldset {
+  border-top: 0;
+}
+
+legend {
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #fff 0%, #fff calc(50% - 1px), #000 calc(50% - 1px), #000 calc(50% + 1px), #fff calc(50% + 1px), #fff 100%);
+}
+
+legend span {
+  background-color: #fff;
+}
