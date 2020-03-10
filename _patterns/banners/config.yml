@@ -22,7 +22,21 @@ patterns:
     title: "Product List Banner"
     description: |
       This is the banner that will be used on the products list page.
+    fields:
+      - name: heading
+        type: string
+        example: "View the gallery"
+      - name: text
+        type: string
+        example: "Browse our gallery to find that perfect piece of art."
   commissions-banner:
     title: "Commissions Banner"
     description: |
       This banner will be present underneath the gallery and each product details page.
+    fields:
+      - name: heading
+        type: string
+        example: "Commissions are welcome!"
+      - name: text
+        type: string
+        example: "Send us a quick message to let us know if you require custom work done."
