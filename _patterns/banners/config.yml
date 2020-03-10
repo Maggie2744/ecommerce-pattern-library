@@ -7,6 +7,13 @@ patterns:
     title: "Landing Page Banner"
     description: |
       This is the banner that will be used on the home / landing page.
+    fields:
+      - name: heading
+        type: string
+        example: "Unique. Unusual. Urban."
+      - name: text
+        type: string
+        example: "Find the perfect ceramic piece to complete your collection."
   featured-products-banner:
     title: "Featured Products Page Banner"
     description: |
