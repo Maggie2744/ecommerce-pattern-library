@@ -1,3 +1,10 @@
+.current {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 3px;
+  text-decoration-thickness:
+}
+
 .icon-label {
   font-family: var(--font-secondary);
 }

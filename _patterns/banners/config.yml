@@ -14,6 +14,14 @@ patterns:
       - name: text
         type: string
         example: "Find the perfect ceramic piece to complete your collection."
+      - name: button-text
+        type: string
+        example: "View Products"
+        required: false
+      - name: button_url
+        type: url
+        example: "/gallery/"
+        required: false
   featured-products-banner:
     title: "Featured Products Page Banner"
     description: |
@@ -40,3 +48,11 @@ patterns:
       - name: text
         type: string
         example: "Send us a quick message to let us know if you require custom work done."
+      - name: button-text
+        type: string
+        example: "Contact Us"
+        required: false
+      - name: button_url
+        type: url
+        example: "/contact/"
+        required: false

@@ -3,7 +3,9 @@
     <div>
       <h2>Commissions are welcome!</h2>
       <p>Send us a message to let us know if you require custom work done.</p>
-      {% pattern buttons/light %}
+      {% if include.button_url %}
+        {% pattern buttons/light url=include.button_url text=include.button_text %}
+      {% endif %}
     </div>
   </div>
   <div class="banner-btn-img-grid unit xs-1 s-1 m-1 l-1-2 unit-content-distribute">
