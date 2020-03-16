@@ -1,8 +1,7 @@
 .current {
   text-decoration: underline;
-  text-decoration-style: solid;
-  text-underline-offset: 3px;
-  text-decoration-thickness:
+  text-decoration-line: overline;
+  text-decoration-style: wavy;
 }
 
 .icon-label {
