@@ -1,4 +1,11 @@
-<header class="grid">
+<div class="skip-links">
+  <a href="#banner">Jump to the header</a>
+  <a href="#nav">Jump to the navigation</a>
+  <a href="#main">Jump to the main content</a>
+  <a href="#contentinfo">Jump to the footer</a>
+</div>
+
+<header role="banner" class="grid">
 
   <nav class="unit xs-1-2 s-1-2 m-1-2 l-1-2 navigation-1" role="navigation">
     <div id="menuToggle">
@@ -35,7 +42,7 @@
         </div>
       </div>
 
-      <ul class="list-group-inline unit long-nav pin-top-right gutter pad-t-2">
+      <ul role="nav" class="list-group-inline unit long-nav pin-top-right gutter pad-t-2">
         <li class="{% if page.highlight_nav == 'home' %}current{% endif %}"><a class="nav-2-item gutter-1-2" href="/">Home</a></li>
         <li class="{% if page.highlight_nav == 'about' %}current{% endif %}"><a class="nav-2-item gutter-1-2" href="/about/">About</a></li>
         <li class="{% if page.highlight_nav == 'gallery' %}current{% endif %}"><a class="nav-2-item gutter-1-2" href="/gallery/">Gallery</a></li>

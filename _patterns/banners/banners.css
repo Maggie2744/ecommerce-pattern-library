@@ -1,3 +1,7 @@
+a:focus {
+  outline: 3px solid #000;
+}
+
 .banner-btn, .featured-products-banner, .commissions-banner {
   background-color: var(--color-secondary-gray);
 }
