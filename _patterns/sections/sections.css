@@ -10,6 +10,10 @@
   background-color: #f1f1f1;
 }
 
+.content-section {
+  max-width: 32em;
+}
+
 @media only screen and (min-width: 36em) {
 
   .shopping-summary-content {

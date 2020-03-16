@@ -12,3 +12,15 @@ patterns:
     description: |
       This is the section that will provide a summary of the products in the customer's cart and will be featured over the checkout form.
     width: 35em
+  content-section:
+    title: "Content Section"
+    description: |
+      This is the section that will have the written content of the webpage.
+    width: 32em
+    fields:
+      - name: heading
+        type: string
+        example: "Headings"
+      - name: text
+        type: string
+        example: "Text / Content"
