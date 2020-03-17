@@ -1,12 +1,18 @@
+---
+layout: default
+---
+
+{% pattern nav/back-to-gallery %}
+
 <div class="island">
   <div class="grid">
     <div class="unit xs-1 s-1 m-1-2 l-1-2">
-      <img class="product-img" src="{{page.image}}" alt="">
+      <img src="{{page.image}}" alt="">
     </div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2 product-details-content gutter-1-2">
-      <h4>{{include.heading}}</h4>
+      <h4>{{page.title}}</h4>
       <hr class="line">
-      <p>{{include.text}}</p>
+      <p>{{page.description}}</p>
       <hr class="line">
       {% pattern buttons/ghost text="Add To Bag" url="/shopping-cart/" %}
     </div>

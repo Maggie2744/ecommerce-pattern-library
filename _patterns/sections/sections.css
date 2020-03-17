@@ -14,8 +14,8 @@ a:focus {
   background-color: #f1f1f1;
 }
 
-.content-section {
-  max-width: 32em;
+.product-img {
+  width: 50%;
 }
 
 @media only screen and (min-width: 36em) {

@@ -7,6 +7,13 @@ patterns:
     title: "Product Details Section"
     description: |
       This is the section that will describe the product in detail and provide all necessary information for the customer.
+    fields:
+      - name: heading
+        type: string
+        example: "Headings"
+      - name: text
+        type: string
+        example: "Text / Content"
   shopping-summary-section:
     title: "Shopping Summary Section"
     description: |
