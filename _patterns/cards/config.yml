@@ -7,7 +7,10 @@ patterns:
     title: "Collections Cards"
     description: |
       There are three collections featured in this website: Earthenware, Stoneware and Porcelain. These cards are featured on the home / landing page.
-    width: 25em
+    fields:
+      - name: heading
+        type: string
+        example: "Earthenware"
   gallery-cards:
     title: "Gallery Cards"
     description: |
