@@ -5,4 +5,6 @@ highlight_nav: gallery
 
 {% pattern banners/product-list-banner heading="View the gallery" text="Browse our gallery to find that perfect piece of art." %}
 
-<h1>Gallery</h1>
+{% for product in site.products %}
+  {% pattern cards/product-card data=product %}
+{% endfor %}

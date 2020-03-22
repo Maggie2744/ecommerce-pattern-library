@@ -4,17 +4,6 @@ layout: default
 
 {% pattern nav/back-to-gallery %}
 
-<div class="island">
-  <div class="grid">
-    <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-b">
-      <img class="img-flex" src="{{page.image}}" alt="">
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-2 product-details-content gutter-1-2">
-      <h4>{{page.title}}</h4>
-      <hr class="line">
-      <p>{{page.description}}</p>
-      <hr class="line">
-      {% pattern buttons/ghost text="Add To Bag" url="/shopping-cart/" %}
-    </div>
-  </div>
-</div>
+{% for product in site.products %}
+  {% pattern cards/product-card data=product %}
+{% endfor %}

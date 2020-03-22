@@ -18,3 +18,13 @@ patterns:
     description: |
       This will be used to confirm that the customer clicked on the Add To Cart button on the Product Details Page and will confirm that the client wants this item in their shopping cart.
     width: 35em
+  product-card:
+    title: "Product Card"
+    description: |
+      This will be used to describe details of each specific product.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
