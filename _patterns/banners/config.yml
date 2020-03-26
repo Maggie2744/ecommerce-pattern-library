@@ -25,11 +25,11 @@ patterns:
   featured-products-banner:
     title: "Featured Products Page Banner"
     description: |
-      This is the banner that will be used on the featured products section.
+      This is the banner that will be used on the featured products section on the Home / landing page.
   product-list-banner:
     title: "Product List Banner"
     description: |
-      This is the banner that will be used on the products list page.
+      This is the banner that will be used on the products list page or "Gallery" webpage.
     fields:
       - name: heading
         type: string
@@ -40,7 +40,7 @@ patterns:
   commissions-banner:
     title: "Commissions Banner"
     description: |
-      This banner will be present underneath the gallery and each product details page.
+      This banner will be present underneath the Gallery's list of products and present on each product details page.
     fields:
       - name: heading
         type: string
