@@ -5,9 +5,17 @@ layout: default
 {% pattern nav/back-to-gallery %}
 
 <div class="pad-t pad-b island">
-  <h4>{{page.name}}</h4>
-  <p>{{page.description}}</p>
-  <img src="{{page.image}}" alt="">
+  <h4 class="gutter">{{page.name}}</h4>
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2">
+      <img class="img-flex island" src="{{page.image}}" alt="">
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t">
+      <p>{{page.description}}</p>
+      {% pattern buttons/ghost text="Add To Cart" url="" %}
+      {% pattern buttons/basic text="View Cart" url="/checkout/" %}
+    </div>
+  </div>
 </div>
 
 {% pattern banners/commissions-banner heading="Commissions are welcome!" text="Send us a quick message to let us know if you require custom work done." %}
