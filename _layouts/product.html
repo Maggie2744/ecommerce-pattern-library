@@ -4,6 +4,10 @@ layout: default
 
 {% pattern nav/back-to-gallery %}
 
-{% for product in site.products %}
-  {% pattern cards/product-card data=product %}
-{% endfor %}
+<div class="pad-t pad-b island">
+  <h4>{{page.name}}</h4>
+  <p>{{page.description}}</p>
+  <img src="{{page.image}}" alt="">
+</div>
+
+{% pattern banners/commissions-banner heading="Commissions are welcome!" text="Send us a quick message to let us know if you require custom work done." %}
