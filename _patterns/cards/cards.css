@@ -14,6 +14,10 @@ a:focus {
   border: .5px solid var(--color-primary);
 }
 
+.add-to-cart-overlay-bg {
+  background-color: #f2f2f2;
+}
+
 @media only screen and (min-width: 25em) {
 
   .gallery-card {

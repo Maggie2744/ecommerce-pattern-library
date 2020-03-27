@@ -19,7 +19,7 @@ patterns:
   add-to-cart-overlay:
     title: "Add-To-Cart Overlay"
     description: |
-      This will be used to confirm that the customer clicked on the Add To Cart button on the Product Details Page and will confirm that the client wants this item in their shopping cart.
+      This will be used as a product detail section in the shopping cart area to provide final details about the product to the customer before they pay.
     width: 35em
   product-card:
     title: "Product Card"

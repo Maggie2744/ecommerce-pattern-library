@@ -23,3 +23,7 @@ legend {
 legend span {
   background-color: #fff;
 }
+
+.icon-label {
+  color: var(--color-primary);
+}
