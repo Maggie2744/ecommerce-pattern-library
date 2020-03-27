@@ -52,3 +52,7 @@ patterns:
       - name: url
         type: url
         example: /.../
+  checkout-button:
+    title: "Checkout Button"
+    description: |
+      This button will be present at the bottom of the checkout form.

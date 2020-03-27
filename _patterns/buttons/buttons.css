@@ -69,3 +69,8 @@ a:focus {
   background-color: transparent;
   color: var(--color-secondary-orange);
 }
+
+.bottom {
+  background-color: #f2f2f2;
+  border: none;
+}
