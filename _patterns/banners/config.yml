@@ -56,3 +56,11 @@ patterns:
         type: url
         example: "/contact/"
         required: false
+  alerts-banner:
+    title: "Alerts Banner"
+    description: |
+      This banner will be used at the top of a webpage to notify customer's of an alert or update.
+    fields:
+      - name: heading
+        type: string
+        example: "ALERT ALERT ALERT"

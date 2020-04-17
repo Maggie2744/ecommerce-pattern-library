@@ -16,7 +16,7 @@ a:focus {
   align-items: center;
 }
 
-.svg-1 {
+.svg-1, .alerts {
   background-color: var(--color-secondary-orange);
 }
 
@@ -39,7 +39,6 @@ a:focus {
 .img-2, .img-3, .img-4 {
   display: none;
 }
-
 
 @media only screen and (min-width: 60em) {
 
